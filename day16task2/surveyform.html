@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="surveyform.css">
+    <link rel="stylesheet" media="screen and (max-width: 400px)" href="phone.css">
+</head>
+<body>
+    <form action="nophp.php">
+            <section class="container">
+             <div class="block"> 
+            <label class="required" for="name" style="font-family: 'Poppins', sans-serif;">Name</label>
+           <div class="name" >
+            <div>
+              <input type="text" id="name">    
+              <p id="name-f">First</p>
+            </div>
+            <div>
+                <input type="text" id="name">
+                <p id="name-f">Last</p>
+            </div>
+           </div>
+                
+                <label class="required" for="email" style="font-family: 'Poppins', sans-serif;">Email</label>
+                <div>   
+                    <input class="email" id="email">
+                </div>
+           
+                <label class="required"  for="star" style="font-family: 'Poppins', sans-serif;">Your Experience</label>
+                 <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span> 
+                    <p>Overall,how would you rate you experience with us?</p>
+                      </div>
+               <label class="required" for="statis" style="font-family: 'Poppins', sans-serif;"> How satisfied are you with</label>
+                 <div  class="statis">
+                     <ul class="stat" type="none">
+                         <li>Very Unsatisfied</li>
+                         <li>Unsatisfied</li>
+                         <li>Neutral</li>
+                         <li>Satisfied</li>
+                         <li>Very Satisfied</li>
+                     </ul>
+                 </div>
+                 <div class="purch">
+                      
+                      <ul class="purc" type="none">
+                          <li class="liwidth1">Purchase</li>
+                       <li><input type="radio" name="purchase"></li>
+                       <li> <input type="radio" name="purchase"></li>
+                       <li><input type="radio" name="purchase"></li>
+                       <li><input type="radio" name="purchase"></li>
+                       <li><input type="radio" name="purchase"></li>
+                      </ul>
+                 </div>
+                 <div class="serv">
+                    <ul class="servi" type="none">
+                       <li class="liwidth1">Service</li>
+                     <li> <input type="radio" name="purchase"></li>
+                     <li> <input type="radio" name="purchase"></li>
+                     <li><input type="radio" name="purchase"></li>
+                     <li><input type="radio" name="purchase"></li>
+                     <li><input type="radio" name="purchase"></li>
+                    </ul>
+               </div>
+               <div class="compan">
+                <ul class="comp" type="none">
+                  <li class="liwidth1">Company name</li>
+                 <li> <input type="radio" name="purchase"></li>
+                 <li> <input type="radio" name="purchase"></li>
+                 <li><input type="radio" name="purchase"></li>
+                 <li><input type="radio" name="purchase"></li>
+                 <li><input type="radio" name="purchase"></li>
+                </ul>
+           </div>
+           <label class="required" for="like" style="font-family: 'Poppins', sans-serif;"> <strong>How likely are you to</strong></label>
+           <div  class="like">
+            <ul class="lik" type="none">
+                <li>Very Unlikely</li>
+                <li>Unlikely</li>
+                <li>Neutral</li>
+                <li>Likely</li>
+                <li>Very Likely</li>
+            </ul>
+        </div>
+        <div class="buy">
+                      
+          <ul class="bu" type="none">
+              <li class="liwidth2">Buy from us again</li>
+           <li class="btn"><input type="radio" name="purchase"></li>
+           <li class="btn"> <input type="radio" name="purchase"></li>
+           <li class="btn"><input type="radio" name="purchase"></li>
+           <li class="btn"><input type="radio" name="purchase"></li>
+           <li class="btn"><input type="radio" name="purchase"></li>
+          </ul>
+     </div>
+     <div class="recompr">
+                      
+      <ul class="recomp" type="none">
+          <li class="liwidth2">Recommened our product to others</li>
+       <li class="btn"><input type="radio" name="purchase"></li>
+       <li class="btn"> <input type="radio" name="purchase"></li>
+       <li class="btn"><input type="radio" name="purchase"></li>
+       <li class="btn"><input type="radio" name="purchase"></li>
+       <li class="btn"><input type="radio" name="purchase"></li>
+      </ul>
+ </div>
+ <div class="recomco">
+                      
+  <ul class="recomc" type="none">
+      <li class="liwidth2">Recommend our company to others</li>
+   <li class="btn"><input type="radio" name="purchase"></li>
+   <li class="btn"> <input type="radio" name="purchase"></li>
+   <li class="btn"><input type="radio" name="purchase"></li>
+   <li class="btn"><input type="radio" name="purchase"></li>
+   <li class="btn"><input type="radio" name="purchase"></li>
+  </ul>
+</div>
+<label for="commnet" style="font-family: 'Poppins', sans-serif;"> <strong>Additional comments or suggestions</strong></label>
+   <div>
+
+     <textarea name="comment" id="comment" cols="92" rows="10" style="margin-top: 5px;"></textarea>
+     
+   </div>
+   <div>
+     
+     <input type="submit" value="Submit" class="submit">
+   </div>
+
+
+
+
+        </div>
+        </section>
+        </form>
+</body>
+</html>

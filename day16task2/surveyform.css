@@ -1,0 +1,88 @@
+
+
+
+.container{
+    border: 1px solid black;
+    width: 734px;
+    height:900px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    
+  
+}
+.block{
+    margin: 10px;
+}
+.name{
+    display:flex;
+    width: 373px;
+    justify-content: space-between;
+}
+.required:after{
+    content:"*";
+    color:red;
+}
+
+#name-f{
+    margin-top: 0px;
+}
+.email{
+    width: 366px;
+    margin-bottom: 10px;
+}
+.checked {
+    color:orange;
+}
+.statis{
+    display:block;
+    margin: 10px auto;
+    width:100%;
+    margin-left: 40px;
+} 
+.like{
+    display:block;
+    margin: 10px auto;
+    width:100%;
+    margin-left: 40px;
+    margin-right: 0px
+    
+} 
+
+
+
+.stat,.lik{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 12px
+   
+}
+.liwidth1{
+    width:101px;
+}
+.liwidth2{
+    width:101px;
+}
+
+.purch,.serv,.compan,.buy,.recompr,.recomco{
+    display: block;
+    margin: 10px auto;
+    margin-left: 0px;
+    width: 685px;
+    
+}
+.purc,.servi,.comp,.bu,.recomp,.recomc{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;    /*width: 596px; */
+    padding-left: 0px;
+}
+.purch,.compan,.buy,.recomco{
+    background-color: whitesmoke
+}
+.btn{
+    margin-top: 10px;
+}
+.submit{
+    padding: 10px;
+    margin-top: 10px;
+}
